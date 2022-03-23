@@ -66,7 +66,7 @@ function App() {
                     handleNewQuote={handleNewQuote}
                 />}
               <div className="creator">
-                  <a href="https://github.com/JamesWitchard" rel="noreferrer" target="_blank" >By James Witchard</a>
+                  <a href="https://github.com/JamesWitchard?tab=repositories" rel="noreferrer" target="_blank" >By James Witchard</a>
               </div>
             </div>
         </div>
