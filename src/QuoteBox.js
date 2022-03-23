@@ -1,5 +1,6 @@
 import React from 'react';
-import './QuoteBox.css';
+//import './QuoteBox.css';
+import 'https://raw.githubusercontent.com/JamesWitchard/01-random-quote-machine/master/src/QuoteBox.css';
 
 const QuoteBox = (props) => {
     return (
