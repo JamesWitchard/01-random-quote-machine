@@ -1,8 +1,6 @@
 import {useState, useEffect} from "react";
-//import './App.css';
-import 'https://raw.githubusercontent.com/JamesWitchard/01-random-quote-machine/master/src/App.css';
-//import QuoteBox from "./QuoteBox";
-import QuoteBox from "https://raw.githubusercontent.com/JamesWitchard/01-random-quote-machine/master/src/QuoteBox.js";
+import './App.css';
+import QuoteBox from "./QuoteBox";
 
 // Colours that are displayed
 const COLOURS = [

@@ -1,8 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-//import './index.css';
-//import App from './App';
-import App from 'https://raw.githubusercontent.com/JamesWitchard/01-random-quote-machine/master/src/App.js';
+import './index.css';
+import App from './App';
 
 ReactDOM.render(
   <React.StrictMode>
