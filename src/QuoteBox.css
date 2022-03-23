@@ -1,0 +1,66 @@
+#quote-box {
+    background-color: white;
+    color: var(--colour);
+    transition: color var(--transition-duration);
+    padding: 2rem;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+.buttons {
+    display: flex;
+    flex-direction: row;
+}
+.buttons ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0 0 0 1rem;
+}
+.buttons li {
+    list-style: none;
+}
+.buttons a {
+    text-decoration: none;
+    background-color: var(--colour);
+    transition: background-color var(--transition-duration);
+    padding: .8rem .8rem;
+    border-radius: 4px;
+    color: white;
+    margin-right: .2rem;
+}
+button {
+    background-color: var(--colour);
+    transition: background-color 2s;
+    border: none;
+    border-radius: 4px;
+    padding: .8rem 1rem;
+    color: white;
+    justify-content: right;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: 400;
+}
+.flexGrow {
+    display: inherit;
+    flex-grow: 1;
+}
+#text {
+    display: flex;
+    flex-direction: row;
+}
+
+#text span {
+    margin-top: 1.9rem;
+    padding: 0 1rem;
+    font-size: 1.75rem;
+}
+
+#author {
+    display: flex;
+    justify-content: right;
+    margin-bottom: 1rem;
+}
